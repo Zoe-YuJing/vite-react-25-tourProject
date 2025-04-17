@@ -5,7 +5,8 @@ function Header() {
         <nav class="navbar navbar-light bg-grey-000">
             <div class="container ">
             <a  href="#">
-                <img src="public\image\Logo\Type=Desktop, Colour=Colour.png" alt="Logo" width="206" height="40" />
+                <img src="public\image\Logo\Type=Desktop, Colour=Colour.png" alt="Logo" width="206" height="40" className="d-none d-md-block"/>
+                <img src="public\image\Logo\Type=Mobile, Colour=Colour.png" alt="Logo" width="86" height="40" className="d-md-none "/>
             </a>
             <div className=" d-none d-md-inline">
                 <ul className="nav">
