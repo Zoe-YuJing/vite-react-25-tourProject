@@ -1,0 +1,17 @@
+.footer-list{
+    list-style: none;
+    color: $grey-000;
+    text-align: center;
+    width: fit-content;
+}
+
+.footer-link{
+    display: block;
+    color: var(--bs-nav-link-color);
+    text-decoration: none;
+    background: none;
+    border: 0;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+

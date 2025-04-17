@@ -1,8 +1,16 @@
 
+
+
+
 //Bootstrap
 @import "bootstrap/scss/functions"; 
-
-
 @import  "./variables";
-
 @import "bootstrap/scss/bootstrap";
+
+@import "./utilities";
+@import "bootstrap/scss/utilities/api";
+
+
+//Layout
+@import "./layout/header";
+@import "./layout/footer";
